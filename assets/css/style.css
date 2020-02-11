@@ -1,0 +1,10 @@
+body{
+    color: rgb(161, 161, 161);
+}
+
+.card{
+    border: 0px;
+}
+:placehoder{
+    color: rgb(161, 161, 161)!important;
+}
