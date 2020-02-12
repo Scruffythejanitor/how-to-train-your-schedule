@@ -1,10 +1,72 @@
-body{
-    color: rgb(161, 161, 161);
+body {
+  color: #8da3a3;
+  background-color: #c0d8d8;
 }
-
-.card{
-    border: 0px;
+h1,h2{
+    font
+    border-radius: 9px;
+    /* background: linear-gradient(-145deg, #bed3d3, #cde7e7); */
+    text-shadow: 9px 9px 19px #a1b5b5, -9px -9px 19px #dffbfb; 
 }
-:placehoder{
-    color: rgb(161, 161, 161)!important;
+.card-header {
+  border-radius: 20px;
+  background-color: rgb(228, 233, 238, 0);
+}
+.jumbotron {
+    border-radius: 9px;
+    background: linear-gradient(-145deg, #bed3d3, #cde7e7);
+    box-shadow: 9px 9px 19px #a1b5b5, -9px -9px 19px #dffbfb;
+}
+td,th{
+    border-color: #b2caca !important;
+}
+.card-header{
+    border-color: #b2caca !important;
+}
+.card {
+  margin: 20px;
+  border: 0px;
+  border-radius: 9px;
+  background: linear-gradient(-145deg, #bed3d3, #cde7e7);
+  box-shadow: 9px 9px 19px #a1b5b5, -9px -9px 19px #dffbfb;
+}
+::placeholder {
+  color: #8da3a3 !important;
+}
+.input:active,
+input:active,
+input,
+.input:focus,
+input:focus {
+    border:none !important;
+    outline:none !important;
+  border: 0px !important;
+  border-radius: 9px;
+  background: #c0d8d8 !important;
+  box-shadow: inset 2px 2px 4px #8da3a3, inset -2px -2px 4px #ddfdff;
+}
+button {
+  margin-top: 15px;
+  color: #8da3a3;
+  width: 70px;
+  height: 70px;
+  background-color: aliceblue;
+  border: 0px;
+  border-radius: 16px;
+  background: linear-gradient(-145deg, #bed3d3, #cde7e7);
+  box-shadow: 5px 5px 10px #8da3a3, -5px -5px 10px #dffbfb;
+}
+button:active {
+  border-radius: 16px;
+  background: #c0d8d8;
+  box-shadow: inset 6px 6px 11px #a1b5b5, inset -6px -6px 11px #dffbfb;
+}
+.button:active, 
+ button:active,
+.button:focus, 
+ button:focus,
+.button:hover, 
+ button:hover{
+    border:none !important;
+    outline:none !important;
 }
