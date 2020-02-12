@@ -1,9 +1,10 @@
 body {
+  font-family: 'Exo', sans-serif;
   color: #8da3a3;
   background-color: #c0d8d8;
 }
 h1,h2{
-    font
+  font-family: 'Exo', sans-serif;
     border-radius: 9px;
     /* background: linear-gradient(-145deg, #bed3d3, #cde7e7); */
     text-shadow: 9px 9px 19px #a1b5b5, -9px -9px 19px #dffbfb; 
@@ -24,7 +25,7 @@ td,th{
     border-color: #b2caca !important;
 }
 .card {
-  margin: 20px;
+  margin: 20px 0px;
   border: 0px;
   border-radius: 9px;
   background: linear-gradient(-145deg, #bed3d3, #cde7e7);
