@@ -26,7 +26,7 @@ $(document).ready(function () {
 
     $(".submit").on("click", function (event) {
 
-        e.preventDefault();
+        event.preventDefault();
 
         trainName = $("#trainName").val().trim();
         destination = $("#destination").val().trim();

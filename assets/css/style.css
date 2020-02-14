@@ -7,17 +7,22 @@ h1,h2{
   font-family: 'Exo', sans-serif;
     border-radius: 9px;
     /* background: linear-gradient(-145deg, #bed3d3, #cde7e7); */
-    text-shadow: 9px 9px 19px #a1b5b5, -9px -9px 19px #dffbfb; 
+    text-shadow: 3px 3px 8px #a1b5b5, -3px -3px 8px #d1f1f1; 
 }
 .card-header {
   border-radius: 20px;
   background-color: rgb(228, 233, 238, 0);
 }
-.jumbotron {
+.form-control:Focus{
+  border-color: none !important;
+  border:none !important;
+    outline:none !important;
+}
+/* .jumbotron {
     border-radius: 9px;
     background: linear-gradient(-145deg, #bed3d3, #cde7e7);
     box-shadow: 9px 9px 19px #a1b5b5, -9px -9px 19px #dffbfb;
-}
+} */
 td,th{
     border-color: #b2caca !important;
 }
@@ -70,4 +75,25 @@ button:active {
  button:hover{
     border:none !important;
     outline:none !important;
+}
+.top-header,
+.bottom-header,
+.local-time{
+  text-align: center;
+}
+.top-header{
+  padding-top: 20px;
+  font-size: 6vw;
+}
+.bottom-header{
+  margin-top: -30px;
+  font-size: 5.5vw;
+}
+.local-time{
+
+  font-size: 8.5vw;
+}
+.display-name{
+  margin: auto;
+  width: 50%;
 }
